@@ -1,0 +1,18 @@
+scintilla文档：
+http://www.cnblogs.com/superanyi/archive/2011/04/07/2008632.html
+http://blog.csdn.net/leichelle/article/details/7895978
+
+2018.9.19
+1.include文件夹里面全部拷贝
+2.lexers文件夹拷贝：LexCPP.cxx   LexLua.cxx
+3.lexlib文件夹里面全部拷贝
+4.src文件夹里面全部拷贝
+5.win32下面的.h和.cxx全部拷贝（ScintillaDLL.cxx除外，应该是6个文件）
+6.Catalogue.cxx里面的LINK_LEXER只保留c++和lua
+
+工程属性：C/C++ -> 命令行 里面添加：/std:c++latest 
+工程属性：C/C++ -> 预处理器里面添加：
+_CRT_SECURE_NO_WARNINGS
+_SCL_SECURE_NO_WARNINGS
+STATIC_BUILD
+SCI_LEXER

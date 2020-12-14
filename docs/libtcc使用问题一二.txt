@@ -1,0 +1,27 @@
+问题来由：
+
+powersniff（参考博客的文章，在qq群下载最新版本）目前使用lua作为分析插件，但熟练lua的人不多。所以，移植python和tcc两类语言作为插件。
+
+tcc（即tiny c），http://bellard.org/tcc/，网站上的资料很丰富
+
+将c语言作为脚本给程序调用是个不错的思路，可变逻辑部分由用户编写c语言。
+
+ 
+
+问题1.
+
+tcc_compile_string()或者tcc_relocate()失败
+
+解决方法：tcc_new()后立即设置库路径：tcc_set_lib_path(s, "./mypath");
+
+mypath下面必须有lib文件夹和include文件夹（最好直接从libtcc里面拷贝）
+
+ 
+
+问题2：
+
+参考demo代码集成到visual studio 2015后，宿主程序调用脚本程序返回时报esp检查错误。
+
+反汇编跟入，发现普通函数push参数再call然后退出，栈会在被call的函数里面自己平衡，vc工程也设置的是__stdcall，
+
+而tcc编译使用__cdecl，即函数调用时参数入的堆栈要由外部调用者自己平衡。工程改为__cdecl后程序正常

@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\Hyperlink.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\control\TransparentStatic.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Accessor.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\AutoComplete.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CallTip.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CaseConvert.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CaseFolder.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Catalogue.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CellBuffer.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharacterCategory.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharacterSet.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharClassify.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ContractionState.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\DBCS.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Decoration.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\DefaultLexer.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Document.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\EditModel.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Editor.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\EditView.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ExternalLexer.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Indicator.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\KeyMap.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexCPP.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerBase.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerModule.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerNoExceptions.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerSimple.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexLua.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LineMarker.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\MarginView.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PerLine.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PositionCache.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PropSetSimple.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\RESearch.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\RunStyles.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ScintillaBase.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Selection.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Style.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\StyleContext.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\UniConversion.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ViewStyle.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\WordList.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\XPM.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\HanjaDic.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PlatWin.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ScintillaWin.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AboutDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CompileDialogLua.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CompileDialogTCC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConfigDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PowerSniffApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\LuaSource.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\PcapRW.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\PluginLua.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\PluginPython.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\PluginTCC.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\RawSock.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Views.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PowerSniffPanes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyStatusBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\mutex.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="..\other\ConfigWrap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mainfrm_gui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mainfrm_func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mainfrm_net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\win32-framework\include\default_resource.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_archive.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_controls.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_cstring.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_dialog.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_docking.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_file.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_frame.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_gdi.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_imagelist.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_listview.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_mdi.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_menu.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_menubar.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_propertysheet.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_rebar.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_regkey.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_ribbon.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_richedit.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_shared_ptr.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_socket.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_statusbar.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_stdcontrols.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_tab.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_taskdialog.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_time.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_toolbar.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_treeview.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_webbrowser.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_wincore.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_appcore0.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_wincore0.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_appcore.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_commondlg.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_ddx.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_exception.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_printdialogs.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_rect.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_textconv.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_themes.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_dockframe.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_metafile.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\win32-framework\include\wxx_scrollview.h">
+      <Filter>Win32++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\control\Hyperlink.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\control\TransparentStatic.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Accessor.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\AutoComplete.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CallTip.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CaseConvert.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CaseFolder.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Catalogue.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CellBuffer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CharacterCategory.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CharacterSet.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\CharClassify.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ContractionState.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\DBCS.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Decoration.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\DefaultLexer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Document.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\EditModel.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Editor.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\EditView.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ElapsedPeriod.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ExternalLexer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\FontQuality.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ILexer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ILoader.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Indicator.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\IntegerRectangle.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\KeyMap.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LexAccessor.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LexerBase.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LexerModule.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LexerNoExceptions.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LexerSimple.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\LineMarker.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\MarginView.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\OptionSet.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Partitioning.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\PerLine.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Platform.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Position.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\PositionCache.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\PropSetSimple.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\RESearch.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\RunStyles.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Sci_Position.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\SciLexer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Scintilla.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ScintillaBase.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ScintillaWidget.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Selection.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\SparseState.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\SparseVector.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\SplitVector.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\StringCopy.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\Style.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\StyleContext.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\SubStyles.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\UniConversion.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\UniqueString.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ViewStyle.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\WordList.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\XPM.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\HanjaDic.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\PlatWin.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla\ScintillaWin.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AboutDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CompileDialogLua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CompileDialogTCC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConfigDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PowerSniffApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mainfrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\libtcc.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\LuaSource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\mutex.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\PcapRW.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\PluginBase.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\PluginLua.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\PluginPython.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\PluginTCC.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\RawSock.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Views.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PowerSniffPanes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyStatusBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\ConfigWrap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\common.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Win32++">
+      <UniqueIdentifier>{86790b47-d32f-41a7-b741-89ee90d64b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cbba403a-bc76-477a-b285-e00b59b0a45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{3d28faed-ff4b-405a-a4fe-83d0d7ff9cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{11551e1b-ef1d-4edd-9aac-f9011b9a6d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scintilla">
+      <UniqueIdentifier>{8b07a961-a945-4839-8f27-7c67c31c777f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{1dcddfe4-dd07-43c5-a6d4-b6a46f049287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{e15d7f75-acf5-492f-ba57-b883f91cfdc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\scintilla\Scintilla.iface">
+      <Filter>scintilla</Filter>
+    </None>
+    <None Include="..\scintilla\SciTE.properties">
+      <Filter>scintilla</Filter>
+    </None>
+    <None Include="..\src\res\SplitH.cur" />
+    <None Include="..\src\res\SplitV.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\src\res\Win32++.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\res\Dialog.ico" />
+    <Image Include="..\src\res\Toolbar24_n.bmp" />
+    <Image Include="..\src\res\Toolbar24_h.bmp" />
+    <Image Include="..\src\res\Toolbar24_d.bmp" />
+  </ItemGroup>
+</Project>

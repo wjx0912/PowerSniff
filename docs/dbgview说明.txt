@@ -1,0 +1,1 @@
+OutputDebugString不能在vs调试里面执行，只能在单独运行exe里面执行

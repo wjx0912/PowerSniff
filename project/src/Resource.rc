@@ -1,0 +1,354 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "../src/res/Win32++.manifest"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDW_MAIN                ICON                    "../src/res/Dialog.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 271, 282
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 9, "Simsun", 0, 0, 0x1
+BEGIN
+    ICON            IDW_MAIN,IDC_STATIC,18,12,20,20
+    LTEXT           "Author:",IDC_STATIC,21,41,51,12
+    LTEXT           "china.hubei.wuhan.yongjian",IDC_STATIC,78,41,150,12
+    LTEXT           "Website:",IDC_STATIC,21,54,51,12
+    LTEXT           "",IDC_HOME_ADDR,78,54,150,12
+    GROUPBOX        "User Licence",IDC_STATIC,19,75,231,171,BS_CENTER
+    EDITTEXT        IDC_LICENCE_EDIT,31,99,209,135,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL
+    DEFPUSHBUTTON   "Ok",IDOK,102,258,50,14
+END
+
+IDD_DIALOG_COMMON_COMPILE_LUA DIALOGEX 0, 0, 700, 400
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Common Compile Test"
+FONT 9, "Simsun", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Open",IDC_BUTTON_OPEN,6,6,50,14
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE,60,6,50,14
+    PUSHBUTTON      "SaveAs",IDC_BUTTON_SAVEAS,114,6,50,14
+    PUSHBUTTON      "Compile",IDC_BUTTON_COMPILE,168,6,50,14
+    PUSHBUTTON      "Run",IDC_BUTTON_RUN,222,6,50,14
+    EDITTEXT        IDC_EDIT_RESULT,276,6,422,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DIALOG_COMMON_COMPILE_TCC DIALOGEX 0, 0, 700, 400
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Common Compile Test"
+FONT 9, "Simsun", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Open",IDC_BUTTON_OPEN,6,6,50,14
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE,60,6,50,14
+    PUSHBUTTON      "SaveAs",IDC_BUTTON_SAVEAS,114,6,50,14
+    PUSHBUTTON      "Compile",IDC_BUTTON_COMPILE,168,6,50,14
+    PUSHBUTTON      "Run",IDC_BUTTON_RUN,222,6,50,14
+    EDITTEXT        IDC_EDIT_RESULT,276,6,422,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DIALOG_OPTIONS DIALOGEX 0, 0, 393, 222
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 9, "Simsun", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Protocol",IDC_STATIC,5,5,181,35
+    CONTROL         "All",IDC_RADIO_PROTOCOL_ALL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,22,27,9
+    CONTROL         "TCP",IDC_RADIO_PROTOCOL_TCP,"Button",BS_AUTORADIOBUTTON,54,22,27,9
+    CONTROL         "UDP",IDC_RADIO_PROTOCOL_UDP,"Button",BS_AUTORADIOBUTTON,95,22,27,9
+    CONTROL         "ICMP",IDC_RADIO_PROTOCOL_ICMP,"Button",BS_AUTORADIOBUTTON,136,22,29,9
+    GROUPBOX        "Capture Method",IDC_STATIC,195,5,190,35
+    CONTROL         "Raw Sockets",IDC_RADIO_CAPTURE_METHOD_RAWSOCKET,"Button",BS_AUTORADIOBUTTON | WS_GROUP,205,22,55,8
+    CONTROL         "WinPcap Driver",IDC_RADIO_CAPTURE_METHOD_WINPCAP,"Button",BS_AUTORADIOBUTTON,280,22,68,8
+    GROUPBOX        "IP Address",IDC_STATIC,5,46,181,56
+    CONTROL         "All",IDC_RADIO_IP_ALL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,63,37,8
+    CONTROL         "Source",IDC_RADIO_IP_SOURCE,"Button",BS_AUTORADIOBUTTON,54,63,37,8
+    CONTROL         "Dest",IDC_RADIO_IP_DEST,"Button",BS_AUTORADIOBUTTON,95,63,37,8
+    CONTROL         "Both",IDC_RADIO_IP_BOTH,"Button",BS_AUTORADIOBUTTON,136,63,37,8
+    CONTROL         "",IDC_FILTER_IP_ADDR,"SysIPAddress32",WS_TABSTOP,12,84,78,12
+    GROUPBOX        "Port",IDC_STATIC,6,108,180,55
+    CONTROL         "All",IDC_RADIO_PORT_ALL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,125,37,8
+    CONTROL         "Source",IDC_RADIO_PORT_SOURCE,"Button",BS_AUTORADIOBUTTON,54,125,37,8
+    CONTROL         "Dest",IDC_RADIO_PORT_DEST,"Button",BS_AUTORADIOBUTTON,95,125,37,8
+    CONTROL         "Both",IDC_RADIO_PORT_BOTH,"Button",BS_AUTORADIOBUTTON,136,125,37,8
+    EDITTEXT        IDC_FILTER_PORT,12,144,78,12,ES_AUTOHSCROLL
+    LTEXT           "Select network adapter:",IDC_STATIC,195,46,100,8
+    CONTROL         "",IDC_LISTVIEW_ADAPTER_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,195,60,190,102
+    CONTROL         "Data size greater than 0 (filter handshake package)",IDC_CHECK_VALID_DATA_LENGTH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,174,378,10
+    PUSHBUTTON      "OK",IDC_BUTTON_OK1,138,198,48,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_CANCEL1,194,198,46,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", ""
+            VALUE "FileDescription", "PowerSniff"
+            VALUE "FileVersion", "1.1"
+            VALUE "InternalName", "Resource.rc"
+            VALUE "LegalCopyright", "Copyright (C) 2019"
+            VALUE "OriginalFilename", "Resource.rc"
+            VALUE "ProductName", "PowerSniff"
+            VALUE "ProductVersion", "1.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDW_MAIN MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\t\tCtrl+O",          32772
+        MENUITEM "&Save\t\tCtrl+S",             32773
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       32774
+    END
+    POPUP "&Capture"
+    BEGIN
+        MENUITEM "Start\t\tF5",                 32775
+        MENUITEM "Stop\t\tF6",                  32776
+        MENUITEM SEPARATOR
+        MENUITEM "Clear\t\tCtrl+R",             32777
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Tool Bar",                   IDW_VIEW_TOOLBAR, CHECKED
+        MENUITEM "&Status Bar",                 IDW_VIEW_STATUSBAR, CHECKED
+        MENUITEM "&Auto Scroll\t\tF8",          ID_OPTIONS_AUTOSCROLL, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Options\t\tF9",               32778
+        POPUP "Plugin"
+        BEGIN
+            MENUITEM "Lua Compile Test\t\tCtrl + L", 32780
+            MENUITEM "TCC Compile Test\t\tCtrl + T", 32781
+            MENUITEM "Plugin Reinit\t\tCtrl + P",   32782
+            MENUITEM SEPARATOR
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      32783
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDW_SPLITH              CURSOR                  "res\\SplitH.cur"
+
+IDW_SPLITV              CURSOR                  "res\\SplitV.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDW_MAIN                BITMAP                  "res\\Toolbar24_n.bmp"
+
+IDB_TOOLBAR_NORM        BITMAP                  "res\\Toolbar24_n.bmp"
+
+IDB_TOOLBAR_HOT         BITMAP                  "res\\Toolbar24_h.bmp"
+
+IDB_TOOLBAR_DIS         BITMAP                  "res\\Toolbar24_d.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDW_MAIN ACCELERATORS
+BEGIN
+    "R",            IDM_CAPTURE_CLEAR,      VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          IDM_CAPTURE_START,      VIRTKEY, NOINVERT
+    VK_F6,          IDM_CAPTURE_STOP,       VIRTKEY, NOINVERT
+    "O",            IDM_FILE_OPEN,          VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_FILE_SAVE,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      IDM_INVALID,            VIRTKEY, NOINVERT
+    "L",            IDM_LUA_COMPILE_TEST,   VIRTKEY, CONTROL, NOINVERT
+    "P",            IDM_PLUGIN_REINIT,      VIRTKEY, CONTROL, NOINVERT
+    "T",            IDM_TCC_COMPILE_TEST,   VIRTKEY, CONTROL, NOINVERT
+    VK_F9,          IDM_VIEW_OPTIONS,       VIRTKEY, NOINVERT
+    VK_F8,          ID_OPTIONS_AUTOSCROLL,  VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 270
+    END
+
+    IDD_DIALOG_COMMON_COMPILE_LUA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 616
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_DIALOG_COMMON_COMPILE_TCC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 610
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_DIALOG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 390
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDW_MAIN                "PowerSniff"
+END
+
+STRINGTABLE
+BEGIN
+    IDT_TOOLBAR_OPEN        "Open Existing Document"
+    IDT_TOOLBAR_SAVE        "Save the Document"
+    IDT_TOOLBAR_START       "Start Capture"
+    IDT_TOOLBAR_STOP        "Stop Capture"
+    IDT_TOOLBAR_CLEAR       "Clear Capture List"
+    IDT_TOOLBAR_OPTIONS     "Show Options Dialog"
+    IDT_TOOLBAR_ABOUT       "Display Information about this program"
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

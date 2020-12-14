@@ -1,0 +1,20 @@
+https://www.codeproject.com/Articles/7891/Using-virtual-lists
+https://blog.csdn.net/mahong100/article/details/50607348
+
+
+总结：
+1.控件加：LVS_REPORT | LVS_SINGLESEL | LVS_OWNERDATA这几个属性，LVS_OWNERDATA必须在create之前加
+2.m_list.SetItemCount(100);
+3.处理LVN_GETDISPINFO 消息，不需要处理其它消息了
+
+
+
+
+EnsureVisible到最后一行问题，解决方法：
+m_listview.SetItemCountEx(pcapdata_ui.size(), LVSICF_NOSCROLL | LVSICF_NOINVALIDATEALL);
+
+闪烁问题（双缓冲）,解决方法：
+DWORD dwStyleEx = GetExtendedStyle();
+dwStyleEx |= LVS_EX_DOUBLEBUFFER;
+SetExtendedStyle(dwStyleEx);
+

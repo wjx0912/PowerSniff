@@ -1,0 +1,5 @@
+*.vs
+*.aps
+obj/*
+bin/PowerSniff.*
+smsniff.cfg

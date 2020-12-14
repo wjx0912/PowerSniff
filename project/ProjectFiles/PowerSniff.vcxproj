@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\win32-framework\include\default_resource.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_appcore.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_appcore0.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_archive.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_commondlg.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_controls.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_cstring.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_ddx.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_dialog.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_dockframe.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_docking.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_exception.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_file.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_frame.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_gdi.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_imagelist.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_listview.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_mdi.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_menu.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_menubar.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_metafile.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_printdialogs.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_propertysheet.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_rebar.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_rect.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_regkey.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_ribbon.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_richedit.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_scrollview.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_shared_ptr.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_socket.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_statusbar.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_stdcontrols.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_tab.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_taskdialog.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_textconv.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_themes.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_time.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_toolbar.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_treeview.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_webbrowser.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_wincore.h" />
+    <ClInclude Include="3rd\win32-framework\include\wxx_wincore0.h" />
+    <ClInclude Include="..\control\Hyperlink.h" />
+    <ClInclude Include="..\control\TransparentStatic.h" />
+    <ClInclude Include="..\other\common.h" />
+    <ClInclude Include="..\other\ConfigWrap.h" />
+    <ClInclude Include="..\other\libtcc.h" />
+    <ClInclude Include="..\other\LuaSource.h" />
+    <ClInclude Include="..\other\mutex.h" />
+    <ClInclude Include="..\other\PcapRW.h" />
+    <ClInclude Include="..\other\PluginBase.h" />
+    <ClInclude Include="..\other\PluginLua.h" />
+    <ClInclude Include="..\other\PluginPython.h" />
+    <ClInclude Include="..\other\PluginTCC.h" />
+    <ClInclude Include="..\other\RawSock.h" />
+    <ClInclude Include="..\scintilla\Accessor.h" />
+    <ClInclude Include="..\scintilla\AutoComplete.h" />
+    <ClInclude Include="..\scintilla\CallTip.h" />
+    <ClInclude Include="..\scintilla\CaseConvert.h" />
+    <ClInclude Include="..\scintilla\CaseFolder.h" />
+    <ClInclude Include="..\scintilla\Catalogue.h" />
+    <ClInclude Include="..\scintilla\CellBuffer.h" />
+    <ClInclude Include="..\scintilla\CharacterCategory.h" />
+    <ClInclude Include="..\scintilla\CharacterSet.h" />
+    <ClInclude Include="..\scintilla\CharClassify.h" />
+    <ClInclude Include="..\scintilla\ContractionState.h" />
+    <ClInclude Include="..\scintilla\DBCS.h" />
+    <ClInclude Include="..\scintilla\Decoration.h" />
+    <ClInclude Include="..\scintilla\DefaultLexer.h" />
+    <ClInclude Include="..\scintilla\Document.h" />
+    <ClInclude Include="..\scintilla\EditModel.h" />
+    <ClInclude Include="..\scintilla\Editor.h" />
+    <ClInclude Include="..\scintilla\EditView.h" />
+    <ClInclude Include="..\scintilla\ElapsedPeriod.h" />
+    <ClInclude Include="..\scintilla\ExternalLexer.h" />
+    <ClInclude Include="..\scintilla\FontQuality.h" />
+    <ClInclude Include="..\scintilla\HanjaDic.h" />
+    <ClInclude Include="..\scintilla\ILexer.h" />
+    <ClInclude Include="..\scintilla\ILoader.h" />
+    <ClInclude Include="..\scintilla\Indicator.h" />
+    <ClInclude Include="..\scintilla\IntegerRectangle.h" />
+    <ClInclude Include="..\scintilla\KeyMap.h" />
+    <ClInclude Include="..\scintilla\LexAccessor.h" />
+    <ClInclude Include="..\scintilla\LexerBase.h" />
+    <ClInclude Include="..\scintilla\LexerModule.h" />
+    <ClInclude Include="..\scintilla\LexerNoExceptions.h" />
+    <ClInclude Include="..\scintilla\LexerSimple.h" />
+    <ClInclude Include="..\scintilla\LineMarker.h" />
+    <ClInclude Include="..\scintilla\MarginView.h" />
+    <ClInclude Include="..\scintilla\OptionSet.h" />
+    <ClInclude Include="..\scintilla\Partitioning.h" />
+    <ClInclude Include="..\scintilla\PerLine.h" />
+    <ClInclude Include="..\scintilla\Platform.h" />
+    <ClInclude Include="..\scintilla\PlatWin.h" />
+    <ClInclude Include="..\scintilla\Position.h" />
+    <ClInclude Include="..\scintilla\PositionCache.h" />
+    <ClInclude Include="..\scintilla\PropSetSimple.h" />
+    <ClInclude Include="..\scintilla\RESearch.h" />
+    <ClInclude Include="..\scintilla\RunStyles.h" />
+    <ClInclude Include="..\scintilla\SciLexer.h" />
+    <ClInclude Include="..\scintilla\Scintilla.h" />
+    <ClInclude Include="..\scintilla\ScintillaBase.h" />
+    <ClInclude Include="..\scintilla\ScintillaWidget.h" />
+    <ClInclude Include="..\scintilla\ScintillaWin.h" />
+    <ClInclude Include="..\scintilla\Sci_Position.h" />
+    <ClInclude Include="..\scintilla\Selection.h" />
+    <ClInclude Include="..\scintilla\SparseState.h" />
+    <ClInclude Include="..\scintilla\SparseVector.h" />
+    <ClInclude Include="..\scintilla\SplitVector.h" />
+    <ClInclude Include="..\scintilla\StringCopy.h" />
+    <ClInclude Include="..\scintilla\Style.h" />
+    <ClInclude Include="..\scintilla\StyleContext.h" />
+    <ClInclude Include="..\scintilla\SubStyles.h" />
+    <ClInclude Include="..\scintilla\UniConversion.h" />
+    <ClInclude Include="..\scintilla\UniqueString.h" />
+    <ClInclude Include="..\scintilla\ViewStyle.h" />
+    <ClInclude Include="..\scintilla\WordList.h" />
+    <ClInclude Include="..\scintilla\XPM.h" />
+    <ClInclude Include="..\src\AboutDialog.h" />
+    <ClInclude Include="..\src\CompileDialogLua.h" />
+    <ClInclude Include="..\src\CompileDialogTCC.h" />
+    <ClInclude Include="..\src\ConfigDialog.h" />
+    <ClInclude Include="..\src\Mainfrm.h" />
+    <ClInclude Include="..\src\MyStatusBar.h" />
+    <ClInclude Include="..\src\PowerSniffApp.h" />
+    <ClInclude Include="..\src\PowerSniffPanes.h" />
+    <ClInclude Include="..\src\resource.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\targetver.h" />
+    <ClInclude Include="..\src\Views.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\control\Hyperlink.cpp" />
+    <ClCompile Include="..\control\TransparentStatic.cpp" />
+    <ClCompile Include="..\other\ConfigWrap.cpp" />
+    <ClCompile Include="..\other\LuaSource.cpp" />
+    <ClCompile Include="..\other\mutex.cpp" />
+    <ClCompile Include="..\other\PcapRW.cpp" />
+    <ClCompile Include="..\other\PluginLua.cpp" />
+    <ClCompile Include="..\other\PluginPython.cpp" />
+    <ClCompile Include="..\other\PluginTCC.cpp" />
+    <ClCompile Include="..\other\RawSock.cpp" />
+    <ClCompile Include="..\scintilla\Accessor.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\AutoComplete.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CallTip.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CaseConvert.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CaseFolder.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Catalogue.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CellBuffer.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharacterCategory.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharacterSet.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\CharClassify.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ContractionState.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\DBCS.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Decoration.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\DefaultLexer.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Document.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\EditModel.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Editor.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\EditView.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ExternalLexer.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\HanjaDic.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Indicator.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\KeyMap.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexCPP.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerBase.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerModule.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerNoExceptions.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexerSimple.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LexLua.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\LineMarker.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\MarginView.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PerLine.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PlatWin.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PositionCache.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\PropSetSimple.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\RESearch.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\RunStyles.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ScintillaBase.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ScintillaWin.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Selection.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\Style.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\StyleContext.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\UniConversion.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\ViewStyle.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\WordList.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\scintilla\XPM.cxx">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\AboutDialog.cpp" />
+    <ClCompile Include="..\src\CompileDialogLua.cpp" />
+    <ClCompile Include="..\src\CompileDialogTCC.cpp" />
+    <ClCompile Include="..\src\ConfigDialog.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Mainfrm_gui.cpp" />
+    <ClCompile Include="..\src\Mainfrm_func.cpp" />
+    <ClCompile Include="..\src\Mainfrm_net.cpp" />
+    <ClCompile Include="..\src\MyStatusBar.cpp" />
+    <ClCompile Include="..\src\PowerSniffApp.cpp" />
+    <ClCompile Include="..\src\PowerSniffPanes.cpp" />
+    <ClCompile Include="..\src\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\Views.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\scintilla\Scintilla.iface" />
+    <None Include="..\scintilla\SciTE.properties" />
+    <None Include="..\src\res\SplitH.cur" />
+    <None Include="..\src\res\SplitV.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\src\res\Win32++.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\res\Dialog.ico" />
+    <Image Include="..\src\res\Toolbar24_d.bmp" />
+    <Image Include="..\src\res\Toolbar24_h.bmp" />
+    <Image Include="..\src\res\Toolbar24_n.bmp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19CEEA56-2973-4E6A-818E-17DB81197AB5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CustomControl</RootNamespace>
+    <ProjectName>PowerSniff</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="d:\sdk\vs2017-x86-props\boost.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="d:\sdk\vs2017-x86-props\boost.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <OutDir>$(SolutionDir)/bin/</OutDir>
+    <IntDir>$(SolutionDir)/obj/debug/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <OutDir>$(SolutionDir)/bin/</OutDir>
+    <IntDir>$(SolutionDir)/obj/release/</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STATIC_BUILD;SCI_LEXER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..\..\3rd\win32-framework\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/std:c++latest %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateManifest>false</GenerateManifest>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;STATIC_BUILD;SCI_LEXER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..\..\3rd\win32-framework\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/std:c++latest %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateManifest>false</GenerateManifest>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2 @@
+upx PowerSniff.exe
+pause

@@ -1,0 +1,78 @@
+--if conditions then
+--then-part
+--end;
+--if conditions then
+--then-part
+--else
+--else-part
+--end;
+--if conditions then
+--then-part
+--elseif conditions then
+--elseif-part
+--.. --多个elseif
+--else
+--else-part
+--end;
+--
+--while condition do
+--statements;
+--end;
+--
+--repeat
+--statements;
+--until conditions;
+--
+--for var=exp1,exp2,exp3 do
+--loop-part
+--end
+--
+--for i=1,f(x) do
+--print(i)
+--end
+--
+--for i=10,1,-1 do
+--print(i)
+--end
+--
+--for i=1,10 do
+--print(i)
+--end
+--max = i -- probably wrong! 'i' here is global
+--
+--find a value in a list
+--local found = nil
+--for i=1,a.n do
+--if a[i] == value then
+--found = i -- save value of 'i'
+--break
+--end
+--end 
+--print(found)
+--
+--print all values of array 'a'
+--for i,v in ipairs(a) do print(v) end 
+--
+--print all keys of table 't'
+--for k in pairs(t) do print(k) end 
+--
+--days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}
+--反序构造
+--revDays = {}
+--for i,v in ipairs(days) do
+--revDays[v] = i
+--end
+--
+--block和reruen只能出现在block结尾一句
+--local i = 1
+--while a[i] do
+--if a[i] == v then break end
+--i = i + 1
+--end
+--
+--function foo ()
+--return --<< SYNTAX ERROR
+--'return' is the last statement in the next block
+--do return end -- OK
+--...--statements not reached
+--end
