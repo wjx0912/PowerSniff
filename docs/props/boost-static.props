@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+the code from: 
+https://stackoverflow.com/questions/12647593/msbuild-vs2010-how-to-reference-runtimelibrary-compiler-setting-in-a-vs2010
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/109c2303-b4a5-4aa1-8f61-01663d358fa5/using-metadata-in-conditions?forum=msbuild
+https://stackoverflow.com/questions/4721879/ms-build-access-compiler-settings-in-a-subsequent-task/4725538#comment43592698_4725538
+https://stackoverflow.com/questions/27584302/how-to-access-item-metadata-outside-target-node-in-msbuild
+
+MSBuild  console_app.vcxproj  /p:Configuration=Debug /p:Platform=x86  /verbosity:diagnostic
+MSBuild  console_app.vcxproj  /p:Configuration=Debug /p:Platform=x86
+MSBuild  console_app.vcxproj  /p:Configuration=Debug /p:Platform=x86  /target:Rebuild
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ImportGroup Label="PropertySheets" />
+	<PropertyGroup Label="UserMacros">
+		<BOOST_DIR>D:\sdk\vs2019\boost_1_75_0</BOOST_DIR>
+	</PropertyGroup>
+	<PropertyGroup>
+		<IncludePath>$(BOOST_DIR);$(IncludePath)</IncludePath>
+		<!---->
+		<LibraryPath Condition="'$(Platform)' == 'Win32'">$(BOOST_DIR)\build\static-win32\stage\lib\;$(LibraryPath)</LibraryPath>
+		<LibraryPath Condition="'$(Platform)' == 'x64'">$(BOOST_DIR)\build\static-x64\stage\lib\;$(LibraryPath)</LibraryPath>
+		<!--
+		<LibraryPath Condition="'$(Platform)' == 'Win32'  and '$(UseOfMFC)' == 'dynamic'">$(BOOST_DIR)\build\default-win32\stage\lib\;$(LibraryPath)</LibraryPath>
+		<LibraryPath Condition="'$(Platform)' == 'x64'    and '$(UseOfMFC)' == 'dynamic'">$(BOOST_DIR)\build\default-x64\stage\lib\;$(LibraryPath)</LibraryPath>
+		<LibraryPath Condition="'$(Platform)' == 'Win32'  and '$(UseOfMFC)' == 'static' ">$(BOOST_DIR)\build\static-win32\stage\lib\;$(LibraryPath)</LibraryPath>
+		<LibraryPath Condition="'$(Platform)' == 'x64'    and '$(UseOfMFC)' == 'static' ">$(BOOST_DIR)\build\static-x64\stage\lib\;$(LibraryPath)</LibraryPath>
+		-->
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<PreprocessorDefinitions>BOOST_BIND_GLOBAL_PLACEHOLDERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+		</ClCompile>
+	</ItemDefinitionGroup>
+</Project>
