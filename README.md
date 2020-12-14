@@ -16,9 +16,10 @@ MIT license
 
 
 
-![](.\screenshot\1.png)
+![](https://github.com/wjx0912/PowerSniff/blob/master/screenshot/1.png)
 
-![](.\screenshot\2.png)
+![](https://github.com/wjx0912/PowerSniff/blob/master/screenshot/2.png)
 
-![](.\screenshot\3.png)
+![](https://github.com/wjx0912/PowerSniff/blob/master/screenshot/3.png)
+
 
